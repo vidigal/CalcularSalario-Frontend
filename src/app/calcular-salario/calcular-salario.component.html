@@ -1,0 +1,41 @@
+<mat-toolbar>
+  <span>Calcular Salário</span>
+</mat-toolbar>
+
+
+<mat-card class="card-formulario">
+  <mat-card-title>Informe os dados do vendedor</mat-card-title>
+  <mat-card-content>
+
+    <p>
+      <mat-form-field>
+        <mat-label>Nome</mat-label>
+        <input matNativeControl type="text">
+      </mat-form-field>
+    </p>
+    <p>
+      <mat-form-field>
+        <mat-label>Meses contratado</mat-label>
+        <input matNativeControl type="number">
+      </mat-form-field>
+    </p>
+    <p>
+      <mat-form-field>
+        <mat-label>Valor Vendas</mat-label>
+        <input matNativeControl type="number">
+      </mat-form-field>
+    </p>
+  </mat-card-content>
+  <mat-divider inset></mat-divider>
+  <mat-card-actions>
+    <button mat-raised-button color="primary">Calcular</button>
+  </mat-card-actions>
+</mat-card>
+
+
+<mat-card class="card-resultado">
+  <mat-card-title>Resultado</mat-card-title>
+  <mat-card-content>
+    Resultado vai ser exibido aqui
+  </mat-card-content>
+</mat-card>
